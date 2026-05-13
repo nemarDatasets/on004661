@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004661",
+  "source": "openneuro",
+  "source_id": "ds004661",
+  "title": "ANDI",
+  "authors": {
+    "Tony Johnson": {},
+    "Stephen Gordon": {},
+    "Jon Touryan": {},
+    "Kevin King": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004661.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
