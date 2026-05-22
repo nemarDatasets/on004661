@@ -1,5 +1,6 @@
 {
   "Name": "ANDI",
+  "DatasetType": "raw",
   "License": "CC0",
   "Authors": [
     "Tony Johnson",
@@ -7,9 +8,7 @@
     "Jon Touryan",
     "Kevin King"
   ],
-  "ReferencesAndLinks": [
-    ""
-  ],
+  "ReferencesAndLinks": [],
   "BIDSVersion": "1.8.0",
   "HEDVersion": "8.1.0",
   "DatasetDOI": "10.82901/nemar.on004661",
@@ -18,5 +17,12 @@
       "DOI": "doi:10.18112/openneuro.ds004661.v1.1.0"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2",
+  "GeneratedBy": [
+    {
+      "Name": "nemar-cli",
+      "Version": "0.8.8",
+      "CodeURL": "https://github.com/nemar-org/nemar-cli"
+    }
+  ]
 }

@@ -1,0 +1,8 @@
+{
+  "TaskDescription": "Dual-task protocol combining a guided visual search and a binaurally presented auditory N-back. The visual search asked participants to follow a red annulus around the screen and press a button if it stopped at a prespecified target. The auditory task was an N-back matching task on numbers presented at ~2 s intervals; the protocol had a baseline (visual + ignored audio) followed by three dual-task conditions at N=0, N=1, and N=2.",
+  "EEGPlacementScheme": "10-10",
+  "MISCChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "ActiveTwo"
+}
