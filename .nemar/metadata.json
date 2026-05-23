@@ -1,23 +1,71 @@
 {
   "version": "2.0",
-  "dataset_id": "on004661",
-  "source": "openneuro",
-  "source_id": "ds004661",
+  "pipeline_stage": "validated",
   "title": "ANDI",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tony Johnson": {},
     "Stephen Gordon": {},
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004661.v1.1.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004661",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004661",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.5 GB (35 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "ANDI is a multimodal neuroimaging dataset comprising EEG recordings from 17 male participants (mean age 32.8 years) performing concurrent visual search and auditory N-back tasks. The dataset includes 64-channel EEG data sampled at 512 Hz, along with EOG and mastoid reference recordings, designed to investigate attentional mechanisms and cognitive load effects during dual-task performance across varying levels of working memory demand.",
+  "methods_description": "EEG data were recorded using a 64-channel BioSemi ActiveTwo system digitized at 512 Hz. Four external electrodes recorded bipolar horizontal and vertical EOG signals, and single external electrodes on left and right mastoids provided reference signals. Participants performed a guided visual search task (following a red annulus and responding to target stops) in parallel with a binaurally presented auditory N-back matching task (N=0, N=1, N=2 conditions) plus a baseline condition with auditory stimuli ignored.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "dual-task performance"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "N-back task"
+    },
+    {
+      "term": "cognitive load"
+    }
+  ],
+  "source_hash": "7e59718fcd4ff52b6e35d0e7a029f5fd60ac03abcad4808ec4968dac0cac874f"
 }
