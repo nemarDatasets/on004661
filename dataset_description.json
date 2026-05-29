@@ -9,7 +9,7 @@
     "Kevin King"
   ],
   "ReferencesAndLinks": [],
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.11.1",
   "HEDVersion": "8.1.0",
   "DatasetDOI": "10.82901/nemar.on004661",
   "SourceDatasets": [
@@ -17,12 +17,5 @@
       "DOI": "doi:10.18112/openneuro.ds004661.v1.1.0"
     }
   ],
-  "Version": "1.0.2",
-  "GeneratedBy": [
-    {
-      "Name": "nemar-cli",
-      "Version": "0.8.8",
-      "CodeURL": "https://github.com/nemar-org/nemar-cli"
-    }
-  ]
+  "Version": "1.0.2"
 }
