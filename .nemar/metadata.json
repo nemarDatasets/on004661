@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ANDI",
+  "description": "EEG recordings from 17 male participants performing a guided visual search task while simultaneously completing a binaurally presented auditory N-back task. The design includes a baseline condition in which the auditory stimuli were ignored, and dual-task conditions with N-back levels of 0, 1 and 2, which vary auditory working memory load. The dataset includes 64-channel BioSemi EEG with EOG and mastoid reference channels and is annotated with HED.",
+  "methods_description": "EEG was recorded with a 64-channel BioSemi ActiveTwo system at 512 Hz. Four external electrodes recorded bipolar horizontal and vertical EOG, and one external electrode on each mastoid provided reference signals. In the visual task, participants followed a red annulus and pressed a button if it stopped at a prespecified target. In the auditory task, they judged whether spoken numbers, presented about every 2 seconds, matched the number N items earlier.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +12,28 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "auditory N-back"
+    },
+    {
+      "term": "dual-task"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004661.v1.1.0",
@@ -22,17 +46,17 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004661",
+      "identifier": "https://nemar.org/dataset/on004661",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "1.5 GB (35 files)"
+    "1.40 GB (35 files)"
   ],
   "formats": [
     ".fdt",
@@ -41,31 +65,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "ANDI is a multimodal neuroimaging dataset comprising EEG recordings from 17 male participants (mean age 32.8 years) performing concurrent visual search and auditory N-back tasks. The dataset includes 64-channel EEG data sampled at 512 Hz, along with EOG and mastoid reference recordings, designed to investigate attentional mechanisms and cognitive load effects during dual-task performance across varying levels of working memory demand.",
-  "methods_description": "EEG data were recorded using a 64-channel BioSemi ActiveTwo system digitized at 512 Hz. Four external electrodes recorded bipolar horizontal and vertical EOG signals, and single external electrodes on left and right mastoids provided reference signals. Participants performed a guided visual search task (following a red annulus and responding to target stops) in parallel with a binaurally presented auditory N-back matching task (N=0, N=1, N=2 conditions) plus a baseline condition with auditory stimuli ignored.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "dual-task performance"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "visual search"
-    },
-    {
-      "term": "N-back task"
-    },
-    {
-      "term": "cognitive load"
-    }
   ],
   "source_hash": "7e59718fcd4ff52b6e35d0e7a029f5fd60ac03abcad4808ec4968dac0cac874f"
 }
